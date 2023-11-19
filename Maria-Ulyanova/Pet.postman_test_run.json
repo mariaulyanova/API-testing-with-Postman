@@ -1,0 +1,631 @@
+{
+	"id": "3d66a63d-7121-4cbe-84ee-9df1dd431e17",
+	"name": "Pet",
+	"timestamp": "2023-07-19T13:26:30.785Z",
+	"collection_id": "28492266-82657fcb-7407-4c1e-8063-429955028731",
+	"folder_id": 0,
+	"environment_id": "28492266-203f80b8-8fed-4425-b914-69758e8782b1",
+	"totalPass": 105,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-07-19T13:26:06.181Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2c100824-ff54-4fda-91a5-90c261265085",
+			"name": "Add a new pet to the store",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 169,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				168,
+				168,
+				172,
+				169,
+				172,
+				170,
+				175,
+				172,
+				175,
+				169,
+				177,
+				171,
+				165,
+				175,
+				169
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1706b38c-231c-4288-ba25-f829b1a5d7f9",
+			"name": "Update an existing pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 166,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				172,
+				172,
+				166,
+				169,
+				168,
+				167,
+				173,
+				166,
+				175,
+				164,
+				176,
+				168,
+				175,
+				172,
+				166
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d49a805b-3b3a-43e6-9d7a-4d6804111ce4",
+			"name": "Find Pets by Status",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				607,
+				612,
+				463,
+				463,
+				462,
+				327,
+				316,
+				309,
+				309,
+				312,
+				309,
+				307,
+				331,
+				313,
+				312
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "77dcad2b-c95e-4f9d-a289-4b0757db7556",
+			"name": "Find pet by ID",
+			"url": "https://petstore.swagger.io/v2/pet/9876",
+			"time": 170,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				167,
+				169,
+				160,
+				169,
+				169,
+				168,
+				165,
+				174,
+				175,
+				171,
+				165,
+				176,
+				170,
+				173,
+				170
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "402af7db-d80d-4003-a0ab-a741b7d0ff7c",
+			"name": "Updates a pet in the store with form data",
+			"url": "https://petstore.swagger.io/v2/pet/9876",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				174,
+				175,
+				167,
+				172,
+				169,
+				173,
+				173,
+				175,
+				170,
+				170,
+				170,
+				174,
+				169,
+				168,
+				174
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4e4f51d7-c62c-44df-a8b8-36d741e4d900",
+			"name": "Deletes a pet",
+			"url": "https://petstore.swagger.io/v2/pet/9876",
+			"time": 165,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				173,
+				176,
+				165,
+				165,
+				168,
+				170,
+				170,
+				169,
+				175,
+				168,
+				170,
+				171,
+				166,
+				169,
+				165
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2b03a1b1-11e9-458b-8c2f-212fe4ed3410",
+			"name": "Check pet by ID after delete",
+			"url": "https://petstore.swagger.io/v2/pet/9876",
+			"time": 172,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				167,
+				172,
+				169,
+				176,
+				165,
+				174,
+				165,
+				172,
+				167,
+				169,
+				175,
+				165,
+				173,
+				169,
+				172
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				},
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 15,
+	"totalTime": 21072,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c100824-ff54-4fda-91a5-90c261265085",
+				"method": "POST"
+			},
+			{
+				"id": "1706b38c-231c-4288-ba25-f829b1a5d7f9",
+				"method": "PUT"
+			},
+			{
+				"id": "d49a805b-3b3a-43e6-9d7a-4d6804111ce4",
+				"method": "GET"
+			},
+			{
+				"id": "77dcad2b-c95e-4f9d-a289-4b0757db7556",
+				"method": "GET"
+			},
+			{
+				"id": "402af7db-d80d-4003-a0ab-a741b7d0ff7c",
+				"method": "POST"
+			},
+			{
+				"id": "4e4f51d7-c62c-44df-a8b8-36d741e4d900",
+				"method": "DELETE"
+			},
+			{
+				"id": "2b03a1b1-11e9-458b-8c2f-212fe4ed3410",
+				"method": "GET"
+			}
+		]
+	}
+}
